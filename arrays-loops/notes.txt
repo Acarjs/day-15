@@ -1,0 +1,8 @@
+Working hours
+
+Create an array of numbers representing how many hours you spent programming for every day of the last week. Save it into the variable hours.
+Using the array hours, print to the console a message reporting how many hours you worked on Sunday.
+Create an array with the names of the first five days of a week. Save it in a variable days.
+Push two more items to the end of the array which will be the names of the remaining days.
+Print to the console the name of the day on index 0. Do the same with indexes 2 and 5.
+Print the length of the array to the console.

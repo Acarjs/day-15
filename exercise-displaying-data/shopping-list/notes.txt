@@ -1,0 +1,20 @@
+A simple grocery shopping list, stage 1
+
+Create a web page that will display a shopping list.
+
+Create a simple project with HTML, CSS, and JavaScript.
+In your index.js create an array of grocery items to buy such as apples, bananas, milk, bread etc. The items are just simple strings
+In your HTML create a div with id and class list
+Use a for each loop to go through the array of grocery items and create its HTML representation such as this.
+<div class="item">Apples</div>
+<div class="item">Bananas</div>
+<!-- other items... -->
+Set this content is innerHTML of the #list element.
+
+Shopping list, stage 2
+We would like our shopping list to have not only the item names but also how many or how much of each item we want to buy.
+
+Change the items in the array from a simple string to an object, which will contain the name of the item and the amount as well.
+Change your page so that it displays the name and amount
+
+Put a form on your page for adding new items to the list.

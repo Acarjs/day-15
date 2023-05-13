@@ -1,0 +1,6 @@
+table {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: goldenrod;
+}
