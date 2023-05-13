@@ -36,4 +36,28 @@ const sumNumbers = numbers.reduce((number1, number2) => {
 const average = sumNumbers / numbers.length
 
 const max = Math.max(...numbers)
-console.log(max)
+// console.log(max)
+
+let maximum = numbers[0]
+
+for (i = 0; i < numbers.length; i++) {
+  if (numbers[i] > maximum) {
+    maximum = numbers[i]
+  }
+}
+
+// console.log(maximum)
+
+const lessThanSixteen = []
+const deneme = numbers.map((number) => {
+  return number < 16 && lessThanSixteen.push(number)
+})
+
+let maximumSixteen = lessThanSixteen[0]
+for (i = 0; i < lessThanSixteen.length; i++) {
+  if (lessThanSixteen[i] > maximumSixteen) {
+    maximumSixteen = lessThanSixteen[i]
+  }
+}
+
+console.log(maximumSixteen)
